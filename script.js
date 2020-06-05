@@ -106,7 +106,7 @@ function newgame(winner) {
 	bola.mod = 0;
 
 	//código para mostrar um vencedor ao atingir uma certa quantidade de pontos
-	/*if(esquerda.score == 10)
+	if(esquerda.score == 10)
 		alert("Player 1 Win");
 	else if(direita.score == 10)
 		alert("Player 2 Win");
@@ -114,7 +114,7 @@ function newgame(winner) {
 	if(esquerda.score == 10 || direita.score == 10){
 		esquerda.score = 0;
 		direita.score = 0;
-	}*/
+	}
 };
 
 function desenha(){
