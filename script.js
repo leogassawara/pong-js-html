@@ -42,6 +42,7 @@ document.addEventListener("keyup", function(e) {
 }, false);
 
 function movebloco() {
+	//Comandos do Player 01
 	if(87 in teclas && esquerda.y > 0)
 		esquerda.y -= esquerda.speed;
 	
@@ -49,7 +50,7 @@ function movebloco() {
 	else if(83 in teclas && esquerda.y + esquerda.altura < canvas.height)
 		esquerda.y += esquerda.speed;
 	
-
+	//Comandos do Player 02
 	if(38 in teclas && direita.y > 0)
 		direita.y -= direita.speed;
 	
